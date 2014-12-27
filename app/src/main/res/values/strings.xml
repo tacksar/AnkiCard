@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AnkiCard</string>
+    <string name="menu_anki_card_folder_list">フォルダ一覧</string>
+    <string name="menu_anki_card_list">暗記カード一覧</string>
+    <string name="menu_anki_card_edit">暗記カード編集</string>
+    <string name="menu_exam_cond">出題条件</string>
+    <string name="menu_delete">削除</string>
+    <string name="menu_edit">編集</string>
+    <string name="menu_exam">問題出題</string>
+    <string name="menu_point_list">ポイント一覧</string>
+    <string name="menu_point_allocation">ポイント配分</string>
+    <string name="menu_home">ホーム</string>
+    <string name="menu_open_source_license">オープンソースライセンス</string>
+    <string name="title_add_anki_card">暗記カード追加</string>
+    <string name="title_add_anki_folder">フォルダ追加</string>
+    <string name="title_answer">解答</string>
+    <string name="title_cancel">キャンセル</string>
+    <string name="title_correct">正解</string>
+    <string name="title_incorrect">不正解</string>
+    <string name="title_ok">OK</string>
+    <string name="title_point">ポイント</string>
+    <string name="title_resist">登録</string>
+    <string name="title_result">結果</string>
+    <string name="title_question">問題</string>
+    <string name="title_question_count">問題数</string>
+    <string name="title_sort_type">並び順</string>
+    <string name="title_word1">単語(表)</string>
+    <string name="title_word2">単語(裏)</string>
+    <string name="title_exam_point">獲得ポイント</string>
+    <string name="title_card_info">カード情報</string>
+    <string name="title_navigation_drawer_open">Open navigation drawer</string>
+    <string name="title_navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_folder_name">フォルダ名</string>
+    <string name="title_today_point">本日の獲得ポイント</string>
+    <string name="title_total_point">累計ポイント</string>
+    <string name="title_anki_card_count">登録している暗記カードの数</string>
+    <string name="msg_app_info">%1$s ver.%2$s</string>
+    <string name="msg_exam_result">正解:%1$d\n不正解:%2$d\nポイント:%3$d</string>
+    <string name="msg_folder_info">カード数:%1$d 正解数:%2$d 不正解数:%3$d</string>
+    <string name="msg_card_info">正解数:%1$d 不正解数:%2$d\n最終出題日:%3$s</string>
+    <string name="msg_point_info">ポイント:%1$d</string>
+    <string name="msg_must_input">%1$sを入力してください</string>
+    <string name="error_empty_question_count">問題数を入力してください</string>
+    <string name="error_empty_anki_folder_list">フォルダを選択してください</string>
+    <string name="error_empty_sort_type">並び順を選択してください</string>
+    <string name="info_delete_folder">フォルダとフォルダ内のカードが削除されます。よろしいですか？</string>
+
+</resources>

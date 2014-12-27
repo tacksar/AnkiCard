@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    ERROR	6
+	WARN	5
+	INFO	4
+	DEBUG	3
+    -->
+    <integer name="show_log_level">10</integer>
+
+</resources>

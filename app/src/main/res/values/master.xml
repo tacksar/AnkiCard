@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2014 tacks_a
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <integer name="point_allocation_id_correct">1</integer>
+    <integer name="point_allocation_id_incorrect">2</integer>
+
+    <string-array name="ary_point_allocation">
+        <item>1,正解(正解数 1),point_allocation_id=1 and correct_count&lt;=1,10,1</item>
+        <item>2,正解(正解数 5以下),point_allocation_id=1 and correct_count&lt;=5,5,2</item>
+        <item>3,正解(正解数 10以下),point_allocation_id=1 and correct_count&lt;=10,3,3</item>
+        <item>4,正解(正解数 11以上),point_allocation_id=1 and correct_count&gt;=11,2,4</item>
+        <item>5,不正解,point_allocation_id=2,1,5</item>
+    </string-array>
+
+    <string-array name="ary_question_count">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="ary_sort_type">
+        <item>正解数の少ない順</item>
+        <item>不正解の多い順</item>
+        <item>ランダム</item>
+        <item>カードの登録順</item>
+        <item>最終出題日の古い順</item>
+    </string-array>
+
+    <string-array name="ary_drawer_title">
+        <item>ホーム</item>
+        <item>出題条件</item>
+        <item>フォルダ一覧</item>
+        <item>ポイント一覧</item>
+        <item>ポイント配分</item>
+        <item>オープンソース\nライセンス</item>
+    </string-array>
+
+    <string-array name="ary_point_summary_type">
+        <item>日付</item>
+        <item>フォルダ</item>
+        <item>配分</item>
+        <item>日付>フォルダ</item>
+        <item>日付>フォルダ>配分</item>
+    </string-array>
+</resources>

@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'robolectric'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        applicationId "net.tacks_a.ankicard"
+        minSdkVersion 7
+        targetSdkVersion 21
+        versionCode 10000
+        versionName "1.0.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    applicationVariants.all { variant ->
+        if (variant.buildType.name.equals("release")) {
+            variant.outputs.each { output ->
+                if (output.outputFile != null && output.outputFile.name.endsWith('.apk')) {
+                    // Rename APK
+                    def applicationId = defaultConfig.applicationId
+                    def versionName = defaultConfig.versionName
+                    def date = new java.text.SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+                    def newName = "${applicationId}_v${versionName}_${date}.apk"
+                    output.outputFile = new File(output.outputFile.parent, newName)
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    apt "org.androidannotations:androidannotations:3.1"
+    provided 'org.projectlombok:lombok:1.12.6'
+    apt "org.projectlombok:lombok:1.12.6"
+    androidTestCompile 'junit:junit:4.11'
+    androidTestCompile 'org.robolectric:robolectric:2.3'
+    androidTestCompile 'com.squareup:fest-android:1.0.3'
+    compile 'org.androidannotations:androidannotations-api:3.1'
+    compile 'com.android.support:support-v4:21.0.2'
+    compile 'com.android.support:appcompat-v7:21.0.2'
+    compile 'com.j256.ormlite:ormlite-android:4.48'
+    compile 'net.sf.opencsv:opencsv:2.3'
+}
+
+apt {
+    arguments {
+        androidManifestFile variant.outputs[0].processResources.manifestFile
+        resourcePackageName 'net.tacks_a.ankicard'
+    }
+}
