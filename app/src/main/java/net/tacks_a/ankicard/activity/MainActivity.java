@@ -38,7 +38,7 @@ import net.tacks_a.ankicard.fragment.HomeFragment_;
 import net.tacks_a.ankicard.fragment.OpenSourceLicenseFragment_;
 import net.tacks_a.ankicard.fragment.PointAllocationListFragment_;
 import net.tacks_a.ankicard.fragment.PointHistoryListFragment_;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;

@@ -23,8 +23,8 @@ import com.j256.ormlite.stmt.QueryBuilder;
 
 import net.tacks_a.ankicard.entity.AnkiCard;
 import net.tacks_a.ankicard.entity.ExamCond;
-import net.tacks_a.ankicard.helper.DatabaseHelper;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.manager.DatabaseHelper;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.EBean;
 

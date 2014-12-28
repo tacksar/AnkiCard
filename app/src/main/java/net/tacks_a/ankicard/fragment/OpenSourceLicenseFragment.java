@@ -21,7 +21,7 @@ import android.support.v4.app.Fragment;
 import android.webkit.WebView;
 
 import net.tacks_a.ankicard.R;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;

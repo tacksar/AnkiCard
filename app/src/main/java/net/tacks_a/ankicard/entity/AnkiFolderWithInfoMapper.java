@@ -18,7 +18,7 @@ package net.tacks_a.ankicard.entity;
 
 import com.j256.ormlite.dao.RawRowMapper;
 
-import net.tacks_a.ankicard.helper.AnkiCardUtil;
+import net.tacks_a.ankicard.util.AnkiCardUtil;
 
 import java.sql.SQLException;
 

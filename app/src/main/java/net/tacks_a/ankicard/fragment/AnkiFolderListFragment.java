@@ -33,13 +33,13 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import net.tacks_a.ankicard.R;
-import net.tacks_a.ankicard.adapter.AnkiFolderListAdapter;
 import net.tacks_a.ankicard.entity.AnkiFolder;
 import net.tacks_a.ankicard.entity.ExamCond;
-import net.tacks_a.ankicard.helper.LogUtil;
 import net.tacks_a.ankicard.model.AnkiCardModel;
 import net.tacks_a.ankicard.model.AnkiFolderModel;
 import net.tacks_a.ankicard.model.PointHistoryModel;
+import net.tacks_a.ankicard.util.LogUtil;
+import net.tacks_a.ankicard.view.adapter.AnkiFolderListAdapter;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;

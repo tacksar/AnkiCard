@@ -19,8 +19,8 @@ package net.tacks_a.ankicard.model;
 import com.j256.ormlite.dao.Dao;
 
 import net.tacks_a.ankicard.entity.ExamCond;
-import net.tacks_a.ankicard.helper.DatabaseHelper;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.manager.DatabaseHelper;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.EBean;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package net.tacks_a.ankicard.adapter;
+package net.tacks_a.ankicard.view.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -24,7 +24,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import net.tacks_a.ankicard.entity.PointAllocation;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.EBean;
 import org.androidannotations.annotations.EViewGroup;

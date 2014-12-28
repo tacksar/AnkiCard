@@ -17,7 +17,7 @@
 package net.tacks_a.ankicard.model;
 
 import net.tacks_a.ankicard.entity.AnkiFolder;
-import net.tacks_a.ankicard.helper.DatabaseHelper;
+import net.tacks_a.ankicard.manager.DatabaseHelper;
 
 import org.junit.After;
 import org.junit.Before;

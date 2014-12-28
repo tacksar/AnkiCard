@@ -25,10 +25,10 @@ import android.widget.ListView;
 import android.widget.Spinner;
 
 import net.tacks_a.ankicard.R;
-import net.tacks_a.ankicard.adapter.PointHistoryListAdapter;
 import net.tacks_a.ankicard.entity.PointHistory;
-import net.tacks_a.ankicard.helper.LogUtil;
 import net.tacks_a.ankicard.model.PointHistoryModel;
+import net.tacks_a.ankicard.util.LogUtil;
+import net.tacks_a.ankicard.view.adapter.PointHistoryListAdapter;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;

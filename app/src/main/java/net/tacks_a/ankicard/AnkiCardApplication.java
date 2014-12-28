@@ -18,8 +18,8 @@ package net.tacks_a.ankicard;
 
 import android.app.Application;
 
-import net.tacks_a.ankicard.helper.DatabaseHelper;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.manager.DatabaseHelper;
+import net.tacks_a.ankicard.util.LogUtil;
 
 @SuppressWarnings("ALL")
 public class AnkiCardApplication extends Application {

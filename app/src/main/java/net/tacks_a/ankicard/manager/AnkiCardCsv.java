@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-package net.tacks_a.ankicard.helper;
+package net.tacks_a.ankicard.manager;
 
 import net.tacks_a.ankicard.entity.AnkiCard;
 import net.tacks_a.ankicard.entity.AnkiFolder;
 import net.tacks_a.ankicard.model.AnkiCardModel;
 import net.tacks_a.ankicard.model.AnkiFolderModel;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EBean;

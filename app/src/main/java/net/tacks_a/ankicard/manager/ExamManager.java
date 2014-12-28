@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package net.tacks_a.ankicard.helper;
+package net.tacks_a.ankicard.manager;
 
 import android.content.Context;
 
@@ -26,6 +26,8 @@ import net.tacks_a.ankicard.entity.PointHistory;
 import net.tacks_a.ankicard.model.AnkiCardModel;
 import net.tacks_a.ankicard.model.PointAllocationModel;
 import net.tacks_a.ankicard.model.PointHistoryModel;
+import net.tacks_a.ankicard.util.AnkiCardUtil;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EBean;

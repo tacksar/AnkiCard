@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package net.tacks_a.ankicard.helper;
+package net.tacks_a.ankicard.manager;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -30,6 +30,7 @@ import net.tacks_a.ankicard.entity.AnkiFolder;
 import net.tacks_a.ankicard.entity.ExamCond;
 import net.tacks_a.ankicard.entity.PointAllocation;
 import net.tacks_a.ankicard.entity.PointHistory;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import java.sql.SQLException;
 

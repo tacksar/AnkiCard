@@ -24,7 +24,7 @@ import android.text.TextUtils;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import java.io.IOException;
 import java.io.Serializable;

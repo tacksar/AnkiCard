@@ -29,9 +29,9 @@ import android.widget.TextView;
 import net.tacks_a.ankicard.R;
 import net.tacks_a.ankicard.entity.AnkiCard;
 import net.tacks_a.ankicard.entity.ExamCond;
-import net.tacks_a.ankicard.helper.AnkiCardUtil;
-import net.tacks_a.ankicard.helper.ExamManager;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.manager.ExamManager;
+import net.tacks_a.ankicard.util.AnkiCardUtil;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;

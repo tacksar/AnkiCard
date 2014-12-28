@@ -23,11 +23,11 @@ import android.support.v4.app.Fragment;
 import android.widget.TextView;
 
 import net.tacks_a.ankicard.R;
-import net.tacks_a.ankicard.helper.AnkiCardCsv;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.manager.AnkiCardCsv;
 import net.tacks_a.ankicard.model.AnkiCardModel;
 import net.tacks_a.ankicard.model.AnkiFolderModel;
 import net.tacks_a.ankicard.model.PointHistoryModel;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Background;

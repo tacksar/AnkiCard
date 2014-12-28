@@ -29,10 +29,10 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import net.tacks_a.ankicard.R;
-import net.tacks_a.ankicard.adapter.PointAllocationListAdapter;
 import net.tacks_a.ankicard.entity.PointAllocation;
-import net.tacks_a.ankicard.helper.LogUtil;
 import net.tacks_a.ankicard.model.PointAllocationModel;
+import net.tacks_a.ankicard.util.LogUtil;
+import net.tacks_a.ankicard.view.adapter.PointAllocationListAdapter;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;

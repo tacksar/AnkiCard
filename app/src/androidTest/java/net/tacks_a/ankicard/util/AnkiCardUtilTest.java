@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package net.tacks_a.ankicard.helper;
+package net.tacks_a.ankicard.util;
 
 import junit.framework.Assert;
 

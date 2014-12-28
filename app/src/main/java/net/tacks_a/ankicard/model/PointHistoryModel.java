@@ -24,9 +24,9 @@ import com.j256.ormlite.stmt.Where;
 
 import net.tacks_a.ankicard.entity.PointHistory;
 import net.tacks_a.ankicard.entity.PointHistoryWithInfoMapper;
-import net.tacks_a.ankicard.helper.AnkiCardUtil;
-import net.tacks_a.ankicard.helper.DatabaseHelper;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.manager.DatabaseHelper;
+import net.tacks_a.ankicard.util.AnkiCardUtil;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.EBean;
 

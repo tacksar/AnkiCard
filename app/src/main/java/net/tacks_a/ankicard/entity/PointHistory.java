@@ -21,7 +21,7 @@ import android.content.Context;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
-import net.tacks_a.ankicard.helper.AnkiCardUtil;
+import net.tacks_a.ankicard.util.AnkiCardUtil;
 
 import java.io.Serializable;
 import java.util.Date;

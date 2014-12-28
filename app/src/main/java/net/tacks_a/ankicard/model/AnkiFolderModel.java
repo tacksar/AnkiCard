@@ -21,8 +21,8 @@ import com.j256.ormlite.dao.GenericRawResults;
 
 import net.tacks_a.ankicard.entity.AnkiFolder;
 import net.tacks_a.ankicard.entity.AnkiFolderWithInfoMapper;
-import net.tacks_a.ankicard.helper.DatabaseHelper;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.manager.DatabaseHelper;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.EBean;
 

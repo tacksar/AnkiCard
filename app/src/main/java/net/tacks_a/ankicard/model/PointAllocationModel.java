@@ -22,8 +22,8 @@ import com.j256.ormlite.dao.GenericRawResults;
 import net.tacks_a.ankicard.entity.AnkiCard;
 import net.tacks_a.ankicard.entity.PointAllocation;
 import net.tacks_a.ankicard.entity.PointHistory;
-import net.tacks_a.ankicard.helper.DatabaseHelper;
-import net.tacks_a.ankicard.helper.LogUtil;
+import net.tacks_a.ankicard.manager.DatabaseHelper;
+import net.tacks_a.ankicard.util.LogUtil;
 
 import org.androidannotations.annotations.EBean;
 
